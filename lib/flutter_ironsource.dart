@@ -113,6 +113,13 @@ class FlutterIronSource {
     await methodChannel.invokeMethod(Constants.METHOD_RESUME, {});
   }
 
+  Future<void> setUserId(String? userID) async {
+    await methodChannel.invokeMethod(Constants.METHOD_SET_USER, {
+      "userID":userID ?? ""
+    });
+  }
+
+
   Future<void> shouldTrackNetworkState({required bool state}) async {
     await methodChannel
         .invokeMethod(Constants.METHOD_SET_TRACK_NETWORK, {"state": state});
