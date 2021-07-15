@@ -4,8 +4,8 @@ class Constants {
 
     companion object{
 
-        const val CHANNEL = "com.zenozaga/flutter_ironsource"
-        const val CHANNEL_BANNER = "com.zenozaga/flutter_ironsource/banner"
+        const val CHANNEL = "com.zenozaga/adeasy_ironsource"
+        const val CHANNEL_BANNER = "com.zenozaga/adeasy_ironsource/banner"
 
         //// Ad Types
         const val AD_TYPE_INERSTITIAL = "interstitial"
