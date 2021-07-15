@@ -1,0 +1,60 @@
+PODS:
+  - AppLovinSDK (10.3.2)
+  - FBAudienceNetwork (6.5.0):
+    - FBSDKCoreKit/Basics (>= 7.0.1)
+  - FBSDKCoreKit/Basics (9.3.0)
+  - Flutter (1.0.0)
+  - flutter_ironsource (0.0.1):
+    - Flutter
+    - IronSourceSDK (= 7.1.6.1)
+  - IronSourceAppLovinAdapter (4.3.26.0):
+    - AppLovinSDK (= 10.3.2)
+    - IronSourceSDK (= 7.1.6.1)
+  - IronSourceFacebookAdapter (4.3.26.2):
+    - FBAudienceNetwork (= 6.5.0)
+    - IronSourceSDK (= 7.1.6.1)
+  - IronSourceSDK (7.1.6.1)
+  - IronSourceUnityAdsAdapter (4.3.10.1):
+    - IronSourceSDK (= 7.1.6.1)
+    - UnityAds (= 3.7.2)
+  - UnityAds (3.7.2)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_ironsource (from `.symlinks/plugins/flutter_ironsource/ios`)
+  - IronSourceAppLovinAdapter
+  - IronSourceFacebookAdapter
+  - IronSourceUnityAdsAdapter
+
+SPEC REPOS:
+  trunk:
+    - AppLovinSDK
+    - FBAudienceNetwork
+    - FBSDKCoreKit
+    - IronSourceAppLovinAdapter
+    - IronSourceFacebookAdapter
+    - IronSourceSDK
+    - IronSourceUnityAdsAdapter
+    - UnityAds
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_ironsource:
+    :path: ".symlinks/plugins/flutter_ironsource/ios"
+
+SPEC CHECKSUMS:
+  AppLovinSDK: 3bbfef1e3ac84d85f556fda26e50f5a70230b970
+  FBAudienceNetwork: cfe55330dcc4e9a1df083c34a346ca7f8e32951e
+  FBSDKCoreKit: 0d1ae58388a458b8222f72025804cdc84eb5d0c3
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+  flutter_ironsource: 5b0c58909be4387c6a0a185bf70561f04becbde7
+  IronSourceAppLovinAdapter: dea16a68e9cbadde4736afdeedfa98a1d26f31e0
+  IronSourceFacebookAdapter: 1058a0449c1e54b9c644c727dc82669f49cfb460
+  IronSourceSDK: bd82f7c69f17effbdec0a09e9426304427490da0
+  IronSourceUnityAdsAdapter: e90689033e2323dfff8afb6a5ade29497cefe1c1
+  UnityAds: cca7e2191591e0bb5d45231f012a2c8722c3e686
+
+PODFILE CHECKSUM: 913af6db677cbd23cc506b95067f54c17d30e715
+
+COCOAPODS: 1.10.1

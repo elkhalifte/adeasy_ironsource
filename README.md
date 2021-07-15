@@ -1,2 +1,2 @@
-# adeasy_ironsource
-IronSource for Flutter (Android &amp; IOS)
+# flutter_ironsource
+ IronSource for Flutter ( Android & IOS )
