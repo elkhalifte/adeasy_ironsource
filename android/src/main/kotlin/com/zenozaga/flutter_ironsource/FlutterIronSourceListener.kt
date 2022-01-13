@@ -124,14 +124,6 @@ abstract class FlutterIronSourceListener  : RewardedVideoListener, OfferwallList
             .put("rewardAmount", placement.rewardAmount)
             .put("rewardName", placement.rewardName)
             .put("isDefault", placement.isDefault)
-            .put("placementSettings", MapUtil()
-                .put("cappingValue", placement.placementAvailabilitySettings.cappingValue)
-                .put("isCappingEnabled", placement.placementAvailabilitySettings.isCappingEnabled)
-                .put("isDeliveryEnabled", placement.placementAvailabilitySettings.isDeliveryEnabled)
-                .put("pacingValue", placement.placementAvailabilitySettings.pacingValue)
-                .put("cappingName", placement.placementAvailabilitySettings.cappingType.name)
-                .map()
-            )
             .map();
 
         onReward()
