@@ -35,13 +35,14 @@ android {
         main.java.srcDirs += 'src/main/kotlin'
     }
     defaultConfig {
-        minSdkVersion 26
+        minSdkVersion 16
     }
 }
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    implementation 'com.ironsource.sdk:mediationsdk:7.1.6.1'
+    implementation 'com.ironsource.sdk:mediationsdk:7.1.14'
+    implementation 'com.ironsource.adapters:facebookadapter:4.3.34'
 
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.google.android.gms:play-services-ads-identifier:17.0.1'
